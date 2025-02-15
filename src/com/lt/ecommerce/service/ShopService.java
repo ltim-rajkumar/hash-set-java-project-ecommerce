@@ -1,5 +1,5 @@
-package com.lt.ecommerce.services;
-import com.lt.ecommerce.models.Shop;
+package com.lt.ecommerce.service;
+import com.lt.ecommerce.model.Shop;
 import com.lt.ecommerce.repository.ShopRepository;
 
 import java.util.Scanner;
@@ -10,25 +10,13 @@ public class ShopService {
 
     public void createShop() {
         Shop shop = new Shop();
-        System.out.println("Enter shop id:");
-        shop.setId(Integer.parseInt(scanner.nextLine()));
-
-        System.out.println("Enter owner id:");
-        shop.setOwnerId(Integer.parseInt(scanner.nextLine()));
-
-        System.out.println("Enter shop name:");
-        shop.setName(scanner.nextLine());
-
-        System.out.println("Enter shop address:");
-        shop.setAddress(scanner.nextLine());
-
-        System.out.println("Enter shop contact number:");
-        shop.setContactNo(Integer.parseInt(scanner.nextLine()));
-
-        System.out.println("Enter shop licence number:");
-        shop.setName(scanner.nextLine());
-
-        System.out.println("shop = " + shop);
+        shop.setId(4001);
+        shop.setOwnerId(2001);
+        shop.setName("Flipkart");
+        shop.setAddress("Pune");
+        shop.setContactNo(923184180);
+        shop.setName("Jay");
+        System.out.println("shop created = " + shop);
     }
 
     public void displayAllShops() {

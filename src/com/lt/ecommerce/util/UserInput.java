@@ -1,4 +1,4 @@
-package com.lt.ecommerce.utils;
+package com.lt.ecommerce.util;
 
 public enum UserInput {
     CUSTOMER,

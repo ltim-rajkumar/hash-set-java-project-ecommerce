@@ -1,5 +1,5 @@
-package com.lt.ecommerce.services;
-import com.lt.ecommerce.models.User;
+package com.lt.ecommerce.service;
+import com.lt.ecommerce.model.User;
 import com.lt.ecommerce.repository.UserRepository;
 
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package com.lt.ecommerce.models;
+package com.lt.ecommerce.model;
 
 public class Shop {
     private int id;

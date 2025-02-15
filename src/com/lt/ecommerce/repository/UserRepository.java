@@ -1,6 +1,6 @@
 package com.lt.ecommerce.repository;
 
-import com.lt.ecommerce.models.User;
+import com.lt.ecommerce.model.User;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -27,6 +27,7 @@ public class UserRepository {
     public void removeAllUsers() {
         userMap.clear();
     }
+
     public int getUsersSize() {
         return userMap.size();
     }
